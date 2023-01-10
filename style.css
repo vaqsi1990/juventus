@@ -1,0 +1,801 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --black:#333;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+
+   
+}
+
+
+body {
+    margin: 0;
+   
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+ }
+
+ .light {
+	background: transparent !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	padding: 0;
+    
+ }
+
+
+ .light .container {
+    background: #ffb400;
+    position: relative;
+    max-width: 1200px !important;
+}
+
+.navv{
+    height: 70px;
+}
+ .brand {
+    color: #000000;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: -6px;
+    background: var(--dark);
+    padding: 0 1em;
+    margin-left: 100px;
+}
+
+.erti a:hover {
+    background-color: #000;
+    color: #fff !important;
+}
+.light .navbar-nav {
+    padding-right: 100px;
+}
+
+
+span{
+    font-weight: 900;
+    color: white;
+}
+.light .brand {
+    color: var(--dark);
+    text-align: center;
+    padding-top: 15.5px;
+    padding-bottom: 25.5px;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+@media screen and (max-width:1200px) {
+    .brand {
+        background-color: var(--dark) !important;
+        margin-left: auto;
+    }
+   
+}
+
+
+@media screen and (max-width:991px) {
+    .brand {
+        background-color: var(--dark) !important;
+        margin-left: -1px !important;
+    }
+    .navbar {
+        background-color: #ffc107 !important;
+    }
+
+    .navv{
+        height: 420px;
+    }
+}
+.nav-link {
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 15px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-weight: 800;
+   
+    }
+
+    .erti a{
+        font-family: "Nunito Sans", Arial, sans-serif;
+            color: black !important;
+            border: 1px solid white;
+            padding-top: .8rem;
+            padding-bottom: .8rem;
+            padding-left: 18px;
+            padding-right: 18px;
+            background: white;
+            margin-top: .5rem;
+            border-radius: 4px;
+            border: none;
+            transition: .3s all ease;
+    }
+
+
+
+
+.sport {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center; 
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 620px;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: #000000; 
+}
+.img {
+    background: url(https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/c5epqvh5hpdkdecqz6xn.jpg);
+    z-index: -100px;
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+}
+
+
+
+   
+    
+    
+
+.texst {
+    margin-top: 200px;
+    color: var(--light);
+}
+.cont {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.story {
+    
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+
+
+.icon-video{
+    width: 60px;
+    height: 60px;
+    background: rgba(255,255,255,.8);
+    animation: pulse 2s infinite;
+    border-radius: 50%;
+    
+    }
+
+.icon-video:hover {
+    text-decoration: none;
+}
+
+.icon-video span {
+    font-size:20px;
+	color: #000000;
+}
+
+    @keyframes pulse {
+        0% {
+            
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4); 
+          }
+          70% {
+            
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+          }
+          100% {
+              
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+          }
+    
+.watch {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+
+
+.score {
+    padding: 6em 0;
+    position: relative;
+   
+}
+.score-pb {
+    padding-bottom: 0 !important;
+}
+.score-pt {
+    padding-top: 0 !important;
+}
+
+.widthh {
+    width: 100%;
+    transition: .3s all ease;
+}
+
+.widthh a:hover {
+    background: #000000 !important;
+    color: #fff !important;
+}
+.wrap {
+    
+        position: relative;
+        background: #232931;
+       
+        box-shadow: 0px 75px 94px -66px rgb(0 0 0 / 66%);
+        z-index: 100000000px;
+      
+         margin-top: -60px; 
+    
+}
+.logos {
+    width: 90px;
+    position: relative;
+        
+}
+.imgs {
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 60px;
+      height: 60px;
+      background-size: cover;
+      border-radius: 50%;
+      z-index: 100;
+}
+.imgs2 {
+    left: 35px;
+    z-index: 10;
+}
+.names {
+    width: calc(100% - 90px);
+}
+.logos-names {
+    font-size: 18px;
+    color: #fff;
+}
+ .league {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.final {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.timer {
+    width: 100%;
+}
+.time {
+    width: 25%;
+    font-size: 20px !important;
+    font-weight: 600;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff; 
+    text-align: center;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.time span {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.timer .time:first-child {
+    border-left: transparent;
+}
+
+.butt {
+    background: #ffb400 !important;
+    width: 150px;
+    color: #000000 !important;
+    font-size: 16px;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    padding: 6px 12px;
+    
+}
+
+
+
+.secondhead {
+    font-size: 16px;
+    color: #999;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.heading h2 {
+    font-size: 40px;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    color: #000000;
+}
+
+
+.board {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 2em 1em;
+}
+.team {
+    width: 50% !important;
+    height: 100px;
+}
+
+.img3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.board .team .logo {
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    
+}
+
+
+.win .score {
+    font-weight: 800;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
+   
+}
+
+.win .score span{
+    border-bottom: 5px solid #ffb400;
+}
+.team-name{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.juve .watch {
+    color: rgba(255,255,255,1);
+    font-size: 16px !important;
+    margin-left: -49px;
+}
+
+.card{
+    padding: 1.5em 0.2em 0.5em 1.5em;
+    margin-right: 10px;
+    text-align: center;
+   
+}
+.butt:hover {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+.stadium {
+    font-size: 16px;
+    color: #999;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+.owl-carousel .owl-item img {
+    width: 100px;
+      height: 100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      border-radius: 50%;
+      margin-right: -13px;
+    margin-left: -14px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    color: #c0cc1a;
+}
+
+.home{
+    font-size: 18px;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    color: #000000;
+}
+
+ .icon {
+    line-height: 1.3;
+    position: relative;
+    width: 75px;
+}
+
+.tv span {
+    font-size: 60px;
+    margin-left: -7px;
+    color: #6b75ff;
+}
+
+.tv-text {
+    margin-left: 10px;
+}
+
+.tv-text h3 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    color: #000000;
+}
+
+@media screen and (max-width:1150px){
+    .tv-text h3 {
+        font-size: 15px;
+        
+        width: 122px;
+    }
+    
+}
+
+
+
+.img1 {
+    background: url(https://c4.wallpaperflare.com/wallpaper/562/406/496/juventus-wallpaper-preview.jpg);
+    
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.img1 .row {
+    margin-right: 0 !important;
+}
+.two {
+    margin-top: 10px !important;
+}
+.overlay1 {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    height: 600px;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: #000000; 
+}
+
+.legends{
+    margin-top: 200px;
+  
+}
+
+.story {
+    font-size: 22px;
+    color: #fff;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    letter-spacing: 10px;
+}
+
+.play {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    letter-spacing: 10px;
+    margin: 0px 0px 24px;
+}
+
+
+.play span {
+    color: var(--warning);
+}
+
+
+.people {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+   
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.name {
+    font-size: 22px;
+    color: #fff;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.position {
+    font-size: 16px;
+    color: #fff;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.score_img {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.lady {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.story1 {
+    margin: 0px 0px 15px;
+    color: #999;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+
+.img2 {
+    background: url(https://c4.wallpaperflare.com/wallpaper/562/406/496/juventus-wallpaper-preview.jpg);
+    
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: #000000; 
+}
+.future {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 270px; 
+}
+
+
+
+
+.left{
+    position: absolute;
+    top: 190px;
+    left: -9px;
+    height: 80px;
+    background-color: white;
+}
+
+.future::after {
+      position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+     
+        opacity: .3;
+}
+.top {
+    position: absolute;
+    top: -74px;
+    left: 0;
+    background: #fff;
+}
+.blog1{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog1 span.day {
+    font-size: 50px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1; 
+}
+
+
+.blog1 span.year, .blog1 span.months {
+
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.8);
+ }
+
+
+ .heading a {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    transition: .3s all ease;
+    
+ }
+ .heading a:hover {
+    text-decoration: none;
+    color: var(--warning);
+ }
+
+
+ .img2 {
+    background: url(3501030-71367768-2560-1440.jpg);
+    
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    height: 402px;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: #000000; 
+}
+
+
+
+
+.form-group input {
+    height: 70px !important;
+    border: 1px solid transparent;
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-size: 20px;
+    background: white !important;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0 20px;
+}
+
+
+.form-group .submit1 {
+    color: #000000 !important;
+    background: #ffb400 !important;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+}
+
+
+
+.score2 {
+    font-size: 16px;
+    background: #000000;
+    padding: 7em 0;
+    z-index: 0;
+}
+
+
+.footer-texst {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 900
+}
+
+.footer-heading {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    margin-left: 39px;
+}
+
+.footer-texst p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+
+
+.footer-media a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.1);
+    background: #ffb400;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+
+.footer-media span {
+    font-size: 26px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #000000 !important;
+}
+
+.icon {
+   
+    font-size: 18px;
+    padding-top: 2px;
+    color: white;
+}
+.footer-map {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-family: "Nunito Sans", Arial, sans-serif; 
+    margin-left: -43px;
+}
+
+.copyright p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Nunito Sans", Arial, sans-serif; 
+    margin: 0px 0px 16px;
+}
+
+@media screen and (max-width:768px) {
+    .footer-texst p {
+        margin-left: 40px;
+    }
+
+    .secc{
+        margin-top: 40px;
+    }
+}
